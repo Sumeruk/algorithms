@@ -1,4 +1,4 @@
-package org.example.backpack;
+package ru.zinchenko.backpack;
 
 import java.io.*;
 import java.util.List;
