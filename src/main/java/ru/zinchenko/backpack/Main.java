@@ -5,7 +5,10 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 //Задача о рюкзаке
-//
+//Дано W - вместимость рюкзака
+//weights - веса предметов, prices - стоимости предметов
+//Выходные данные - максимальная стоимость в предметов, которые можно унести в рюкзаке
+//Динамическое программирование на основе предыдущих данных
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -15,8 +18,6 @@ public class Main {
 
         StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
         int W = Integer.parseInt(tokenizer.nextToken());
-
-
 
     }
 
